@@ -7,7 +7,7 @@ app = FastAPI(
     title="Custom GPT Tools API",
     description="A simple API with tools that can be used by a Custom GPT via Actions.",
     version="1.0.0",
-    servers=[{"url": "https://9c6e-14-195-211-249.ngrok-free.app", "description": "Production server"}],
+    servers=[{"url": "https://jft-test.onrender.com", "description": "Production server"}],
 )
 
 app.add_middleware(
